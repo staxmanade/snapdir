@@ -1,0 +1,17 @@
+{
+  "name": "snapdir",
+  "version": "0.0.1",
+  "description": "",
+  "main": "lib/snapdir.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha test/*.js"
+  },
+  "author": "Jason Jarrett",
+  "license": "MIT",
+  "devDependencies": {
+    "approvals": "0.0.12"
+  }
+}
