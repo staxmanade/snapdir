@@ -1,0 +1,23 @@
+{
+  "name": "sampleDir",
+  "children": [
+    {
+      "name": "subFolder",
+      "children": [
+        {
+          "name": "Some Stuff.txt",
+          "sha1": "34553ff1df1c49e2dfbf1e8186216ec9afcd3589"
+        },
+        {
+          "name": "subSubFolder",
+          "children": [
+            {
+              "name": "HelloWorld.txt",
+              "sha1": "2ef7bde608ce5404e97d5f042f95f89f1c232871"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

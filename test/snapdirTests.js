@@ -8,12 +8,16 @@ require('approvals')
 var sut = require('../lib/snapdir.js');
 
 describe('snapdir', function(){
-    it('#getTreeSync()', function(done){
 
-        sut.getTreeSync("sampleDir", function(err, result){
+    it('#getTree()', function(done){
+        sut.getTree("sampleDir", function(err, result){
             this.verifyAsJSON(result);
             done();
         }.bind(this));
+    });
 
+    it('#getTreeSync()', function(){
+        var result = sut.getTreeSync("sampleDir");
+        this.verifyAsJSON(result);
     });
 });
