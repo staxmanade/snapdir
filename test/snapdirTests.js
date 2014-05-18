@@ -11,7 +11,8 @@ describe('snapdir', function(){
 
     it('#getTree()', function(done){
         sut.getTree({
-            globPattern: "sampleDir"
+            globPattern: "sampleDir",
+            filter: function(file){ return file.indexOf(".gitkeep") < 0; }
         }, function (err, result) {
             this.verifyAsJSON(result);
             done();
@@ -20,7 +21,8 @@ describe('snapdir', function(){
 
     it('#getTreeSync()', function(){
         var result = sut.getTreeSync({
-            globPattern: "sampleDir"
+            globPattern: "sampleDir",
+            filter: function (file) { return file.indexOf(".gitkeep") < 0; }
         });
         this.verifyAsJSON(result);
     });
@@ -29,6 +31,7 @@ describe('snapdir', function(){
     it('#getTreeSync() - noSha', function () {
         var result = sut.getTreeSync({
             globPattern: "sampleDir",
+            filter: function(file){ return file.indexOf(".gitkeep") < 0; },
             noSha: true
         });
         this.verifyAsJSON(result);
