@@ -6,7 +6,7 @@ Install the module with: `npm install snapdir`
 ```javascript
 var snapdir = require('snapdir');
 
-var result = sut.getTreeSync({
+var result = snapdir.getTreeSync({
     globPattern: "sampleDir",  // required glob search pattern
     filter: function( fileName ) { return true; }, // can be used to exclude files...
     noSha: true                // default is false
