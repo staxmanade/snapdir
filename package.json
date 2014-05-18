@@ -1,6 +1,6 @@
 {
   "name": "snapdir",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Snapshot a directory structure and file sha1's to keep track of what's changed between a static website deployment. Best used when leveraged with ApprovalTests.NodeJS.",
   "main": "lib/snapdir.js",
   "directories": {
