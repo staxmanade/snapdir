@@ -5,12 +5,76 @@
       "name": "subFolder",
       "children": [
         {
+          "name": "01",
+          "children": []
+        },
+        {
+          "name": "02",
+          "children": []
+        },
+        {
+          "name": "1",
+          "children": []
+        },
+        {
+          "name": "10",
+          "children": []
+        },
+        {
+          "name": "2",
+          "children": []
+        },
+        {
+          "name": "20",
+          "children": []
+        },
+        {
+          "name": "a",
+          "children": []
+        },
+        {
+          "name": "a - Copy",
+          "children": []
+        },
+        {
+          "name": "b",
+          "children": []
+        },
+        {
+          "name": "c",
+          "children": []
+        },
+        {
           "name": "Some Stuff.txt",
           "sha1": "34553ff1df1c49e2dfbf1e8186216ec9afcd3589"
         },
         {
           "name": "subSubFolder",
           "children": [
+            {
+              "name": "01.txt",
+              "sha1": "2ef7bde608ce5404e97d5f042f95f89f1c232871"
+            },
+            {
+              "name": "02.txt",
+              "sha1": "2ef7bde608ce5404e97d5f042f95f89f1c232871"
+            },
+            {
+              "name": "1.txt",
+              "sha1": "2ef7bde608ce5404e97d5f042f95f89f1c232871"
+            },
+            {
+              "name": "10.txt",
+              "sha1": "2ef7bde608ce5404e97d5f042f95f89f1c232871"
+            },
+            {
+              "name": "2.txt",
+              "sha1": "2ef7bde608ce5404e97d5f042f95f89f1c232871"
+            },
+            {
+              "name": "20.txt",
+              "sha1": "2ef7bde608ce5404e97d5f042f95f89f1c232871"
+            },
             {
               "name": "HelloWorld.txt",
               "sha1": "2ef7bde608ce5404e97d5f042f95f89f1c232871"
