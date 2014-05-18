@@ -1,4 +1,4 @@
-# snapdir [![Build Status](https://travis-ci.org/staxmanade/snapdir.svg)](https://travis-ci.org/staxmanade/snapdir)
+# snapdir
 
 ## Getting Started
 Install the module with: `npm install snapdir`
