@@ -27,7 +27,7 @@
       "url": "https://github.com/staxmanade/snapdir/blob/master/LICENSE"
     }
   ],
-  "dependencies": {
+  "devDependencies": {
     "approvals": "0.0.12"
   },
   "keywords": [
