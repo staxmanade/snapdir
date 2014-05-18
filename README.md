@@ -5,11 +5,13 @@ Install the module with: `npm install snapdir`
 
 ```javascript
 var snapdir = require('snapdir');
-var results = snapdir.getTreeSync("someFolder");
+
+var result = sut.getTreeSync({
+    globPattern: "sampleDir",  // required glob search pattern
+    noSha: true                // default is false
+});
+
 ```
 
-## Release History
-- **v0.0.1**, *Initially thrown up on NPM*
-    
 ## License
 Copyright (c) Jason Jarret 2014 . Licensed under the MIT license.
